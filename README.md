@@ -23,4 +23,13 @@ Open `http://localhost:5173`.
 
 ## Deploy
 
+Live site: https://luis-mario-portfolio-final.vercel.app
+
 Configured for Vercel (`vercel.json`) and Netlify (`netlify.toml`).
+
+## Project demos
+
+- LaunchOps: https://launchops-control-tower.vercel.app
+- ServiceFlow: https://serviceflow-suite.vercel.app
+- CommerceBridge: https://commercebridge-studio.vercel.app
+- InsightOps: https://insightops-dashboard.vercel.app
