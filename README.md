@@ -30,6 +30,6 @@ Configured for Vercel (`vercel.json`) and Netlify (`netlify.toml`).
 ## Project demos
 
 - LaunchOps: https://launchops-control-tower.vercel.app
-- ServiceFlow: https://serviceflow-suite-olive.vercel.app
+- ServiceFlow: https://luis-mario-serviceflow.vercel.app
 - CommerceBridge: https://commercebridge-studio.vercel.app
 - InsightOps: https://insightops-dashboard.vercel.app

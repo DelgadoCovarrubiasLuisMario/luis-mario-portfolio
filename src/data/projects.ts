@@ -23,7 +23,7 @@ export const projects: Project[] = [
       'I designed this service operations platform for work orders, customers and inventory — JWT login, role-gated order creation, status updates and month-based KPI dashboards.',
     stack: ['TypeScript', 'React', 'Node.js', 'Express', 'MySQL', 'Sequelize', 'REST APIs', 'JWT Auth', 'RBAC'],
     repo: 'https://github.com/DelgadoCovarrubiasLuisMario/serviceflow-suite',
-    demo: 'https://serviceflow-suite-olive.vercel.app',
+    demo: 'https://luis-mario-serviceflow.vercel.app',
   },
   {
     title: 'CommerceBridge Studio',
