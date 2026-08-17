@@ -9,11 +9,6 @@ export const profile = {
   cv: '/Luis-Mario-Delgado-Covarrubias-CV.pdf',
   summary:
     'I build web platforms, internal tools and e-commerce workflows end to end — modern React frontends, secure Node APIs, SQL data models and delivery practices that are ready to ship.',
-  highlights: [
-    '3+ years hands-on experience',
-    'Web platforms and internal tools',
-    'APIs, SQL, auth and e-commerce',
-  ],
   competencies: [
     'Full-Stack Development',
     'API Design & Integration',
