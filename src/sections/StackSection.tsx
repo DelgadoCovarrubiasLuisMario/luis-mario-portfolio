@@ -6,10 +6,10 @@ export function StackSection() {
       <div className="mb-8 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <p className="font-mono text-xs uppercase tracking-[0.22em] text-[var(--muted)]">01 — Stack</p>
-          <h2 className="font-display mt-2 text-3xl sm:text-4xl">Tools I reach for when I ship</h2>
+          <h2 className="font-display mt-2 text-3xl sm:text-4xl">The stack I ship every day</h2>
         </div>
         <p className="max-w-md text-sm leading-6 text-[var(--muted)]">
-          Frontend systems, Node APIs, SQL models, auth boundaries and delivery workflows from client and product work.
+          Laravel 11 APIs, Angular 19 SPAs, SQL Server and MySQL modeling, Sanctum auth, PHPUnit testing and PSR-12 clean code.
         </p>
       </div>
 

@@ -7,7 +7,7 @@ export function ContactSection() {
     <section id="contact" className="site-shell border-t border-[var(--rule)] py-12 sm:py-16">
       <p className="font-mono text-xs uppercase tracking-[0.22em] text-[var(--muted)]">04 — Contact</p>
       <h2 className="font-display mt-2 max-w-2xl text-3xl sm:text-5xl">
-        If you need someone who can own the UI, the API and the data model — write me.
+        If you need someone who can own the Laravel API, the Angular UI and the SQL data model — write me.
       </h2>
       <div className="mt-8 flex flex-wrap gap-3">
         <Cta href={`mailto:${profile.email}`} variant="accent">
