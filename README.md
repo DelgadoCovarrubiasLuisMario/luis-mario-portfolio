@@ -1,7 +1,7 @@
 # Luis Mario Delgado Covarrubias — Portfolio
 
-My professional portfolio: enterprise web systems built with PHP 8.2 / Laravel 11 REST APIs and Angular 19 SPAs, backed
-by MySQL and SQL Server data models.
+Generic portfolio site: selected projects and contact only. Stack, experience and resume content live in editable CV
+files under `docs/` — one version per job profile.
 
 ## Stack of this site
 
@@ -18,10 +18,15 @@ Open `http://localhost:5173`.
 
 ## Edit content
 
-- Profile, experience and stack: `src/data/profile.ts`
+- Contact info: `src/data/profile.ts`
 - Projects: `src/data/projects.ts`
-- CV PDF served by the site (the only downloadable CV): `public/Luis-Mario-Delgado-Covarrubias-CV.pdf`
-- Printable CV template (not published; open locally and Print → Save as PDF): `docs/cv-print.html`
+
+## CV templates (not served by the site)
+
+- Laravel / Angular (TAP): `docs/cv-print.html` · `docs/CV_COPY_TEXT.md`
+- Rails / React / Angular / AWS (English): `docs/cv-print-en-rails.html` · `docs/CV_EN_RAILS_FULLSTACK.md`
+
+Open any `cv-print*.html` in a browser → Print → Save as PDF.
 
 ## Deploy
 
@@ -29,7 +34,7 @@ Configured for Vercel (`vercel.json`) and Netlify (`netlify.toml`).
 
 Live site: https://luis-mario-portfolio-final.vercel.app
 
-## Featured project
+## Featured repos
 
-LaunchOps Platform — Laravel 11 API + Angular 19 console:
-https://github.com/DelgadoCovarrubiasLuisMario/launchops-platform
+- LaunchOps Platform: https://github.com/DelgadoCovarrubiasLuisMario/launchops-platform
+- ServiceFlow Suite: https://github.com/DelgadoCovarrubiasLuisMario/serviceflow-suite
