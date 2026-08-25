@@ -6,7 +6,6 @@ export const profile = {
   email: 'luismariocovarrubias06@gmail.com',
   github: 'https://github.com/DelgadoCovarrubiasLuisMario',
   linkedin: 'https://linkedin.com/in/luismariocov',
-  cv: '/Luis-Mario-Delgado-Covarrubias-CV.pdf',
   summary:
     'I build enterprise web systems end to end with Laravel as my main backend stack — REST APIs, Eloquent models, migrations and Sanctum auth — consumed by Angular 19 SPAs with RxJS. I own full features independently, refactor legacy code, write unit and integration tests, and review junior pull requests.',
   competencies: [

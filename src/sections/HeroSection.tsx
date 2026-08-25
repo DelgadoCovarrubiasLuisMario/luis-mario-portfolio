@@ -1,4 +1,4 @@
-import { FileText, Github } from 'lucide-react';
+import { Github } from 'lucide-react';
 import { profile } from '../data/profile';
 import { Cta } from '../components/Cta';
 
@@ -20,9 +20,6 @@ export function HeroSection() {
         <div className="mt-8 flex flex-wrap gap-3">
           <Cta href="#projects" variant="accent">
             View selected work
-          </Cta>
-          <Cta href={profile.cv} variant="ghost">
-            <FileText size={15} /> CV
           </Cta>
           <Cta href={profile.github} variant="ghost">
             <Github size={15} /> GitHub

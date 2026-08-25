@@ -1,4 +1,4 @@
-import { FileText, Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 import { profile } from '../data/profile';
 import { Cta } from '../components/Cta';
 
@@ -18,9 +18,6 @@ export function ContactSection() {
         </Cta>
         <Cta href={profile.github} variant="ghost">
           <Github size={15} /> GitHub
-        </Cta>
-        <Cta href={profile.cv} variant="ghost">
-          <FileText size={15} /> Download CV
         </Cta>
       </div>
     </section>
