@@ -17,7 +17,7 @@ export function ProjectsSection() {
           </p>
         </div>
         <p className="max-w-md text-sm leading-6 text-[var(--muted)]">
-          End-to-end systems I designed, built and shipped — details on stack and experience are in my resume.
+          Selected builds with their primary stack — each repo matches the architecture described in my resume.
         </p>
       </div>
 
@@ -37,6 +37,10 @@ export function ProjectsSection() {
                   </span>
                 ) : null}
               </div>
+              <p className="mt-2 font-mono text-[0.72rem] uppercase tracking-[0.14em] text-[var(--accent-ink)]">
+                {project.alignment}
+              </p>
+              <p className="mt-1 font-mono text-[0.68rem] tracking-[0.06em] text-[var(--muted)]">{project.role}</p>
               <p className="mt-3 max-w-3xl text-sm leading-7 text-[var(--muted)] sm:text-base">{project.description}</p>
               <p className="mt-4 font-mono text-[0.7rem] uppercase tracking-[0.12em] text-[var(--ink)]">
                 {project.stack.join(' · ')}
