@@ -11,7 +11,7 @@ export function ProjectsSection() {
           <h2 className="font-display mt-2 text-3xl sm:text-4xl">Projects I built end to end</h2>
         </div>
         <p className="max-w-md text-sm leading-6 text-[var(--muted)]">
-          Operations, service desks, commerce and analytics — Laravel APIs with Angular clients.
+          Featured reference: Laravel 11 API with an Angular 19 operations console.
         </p>
       </div>
 
